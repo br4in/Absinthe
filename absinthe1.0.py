@@ -4,13 +4,6 @@
 from lxml import html
 import sys
 from os import system
-'''
-# Get sentence
-sentence = raw_input('Type sentence : ')
-# Split the sentence to access every word by index
-split_sentence = sentence.split()
-# Select words to process
-'''
 
 def sym_crawler(word):
 	first_letter = word[0]
